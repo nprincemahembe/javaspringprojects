@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Spring Projects.iml" filepath="$PROJECT_DIR$/.idea/Spring Projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/first-project-java-spring/first-project-java-spring.iml" filepath="$PROJECT_DIR$/first-project-java-spring/first-project-java-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/firstrestapispring/firstrestapispring.iml" filepath="$PROJECT_DIR$/firstrestapispring/firstrestapispring.iml" />
+    </modules>
+  </component>
+</project>
