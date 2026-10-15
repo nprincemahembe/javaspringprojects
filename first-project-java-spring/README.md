@@ -58,7 +58,7 @@ This endpoint displays the greeting page using the Thymeleaf template.
 
 The `name` request parameter is passed to the controller. The controller uses the value to personalise the greeting displayed on the page.
 
-![Task 1 personalised greeting](screenshots/t1Vistula.png)
+![Task 1 Vistula screenshot](/first-project-java-spring/screenshots/t1Vistula.png)
 
 ## 6. Main Concepts Demonstrated
 
