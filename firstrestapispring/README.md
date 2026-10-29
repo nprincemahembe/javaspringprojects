@@ -53,7 +53,7 @@ The application normally runs on port `8080`.
 
 Swagger UI allows the API endpoints to be tested directly from the browser.
 
-![Task 2 Swagger UI](screenshots/t2swagger.png)
+![Task 2 Swagger UI](screenshots/t2swagger.PNG)
 
 ### OpenAPI Documentation
 
@@ -77,13 +77,13 @@ In Swagger UI, select the POST endpoint, click **Try it out**, and submit a JSON
 
 ```json
 {
-  "name": "Football"
+  "name": "I don't remember what I typed here"
 }
 ```
 
 The application creates the product and returns the created product information.
 
-![Task 2 create product response](screenshots/T2post.png)
+![Task 2 create product response](screenshots/T2post.PNG)
 
 ### Use Case 2: Retrieve a Product by ID
 
@@ -93,7 +93,7 @@ The application creates the product and returns the created product information.
 
 Replace `{id}` with the ID of an existing product. The API returns the details of that product.
 
-![Task 2 get product by ID](screenshots/t2getonewithresult.png)
+![Task 2 get product by ID](screenshots/t2getonewithresult.PNG)
 
 ### Use Case 3: Retrieve All Products
 
@@ -103,7 +103,7 @@ Replace `{id}` with the ID of an existing product. The API returns the details o
 
 This endpoint returns the products stored in the database.
 
-![Task 2 get all products](screenshots/T2getall.png)
+![Task 2 get all products](screenshots/T2getall.PNG)
 
 ### Use Case 4: Update a Product
 
@@ -116,13 +116,13 @@ Replace `{id}` with the ID of the product to update. Submit the update request u
 ```json
 {
   "id": 1,
-  "name": "Updated Football"
+  "name": "Updated thing I don't remember typing."
 }
 ```
 
 Use the actual product ID in your test. After updating, retrieve the product again to confirm that its name has changed.
 
-![Task 2 update product response](screenshots/T2putwithresult.png)
+![Task 2 update product response](screenshots/T2putwithresult.PNG)
 
 ### Use Case 5: Delete a Product
 
@@ -132,7 +132,7 @@ Use the actual product ID in your test. After updating, retrieve the product aga
 
 Replace `{id}` with the ID of the product to delete. A successful delete request returns no response body. You can then retrieve all products to confirm that the deleted product is no longer listed.
 
-![Task 2 delete product response](screenshots/T2delete.png)
+![Task 2 delete product response](screenshots/T2delete.PNG)
 
 ### Use Case 6: Handle a Product That Does Not Exist
 
@@ -154,7 +154,7 @@ Use the following connection details, assuming they match the application's conf
 - **Username:** `sa`
 - **Password:** Leave blank
 
-![Task 2 H2 Console](screenshots/t2database.png)
+![Task 2 H2 Console](screenshots/t2database.PNG)
 
 ### SQL Query: View All Products
 
@@ -166,7 +166,7 @@ SELECT * FROM PRODUCTS;
 
 This query displays the products stored in the `PRODUCTS` table.
 
-![Task 2 database query results](screenshots/t2database.png)
+![Task 2 database query results](screenshots/t2database.PNG)
 
 Because the application uses an in-memory H2 database, its data normally disappears when the application stops.
 
