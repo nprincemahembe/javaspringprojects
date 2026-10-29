@@ -93,7 +93,7 @@ The application creates the product and returns the created product information.
 
 Replace `{id}` with the ID of an existing product. The API returns the details of that product.
 
-![Task 2 get product by ID](screenshots/t2getonewithresult.PNG)
+![Task 2 get product by ID](screenshots/T2getonewithresult.PNG)
 
 ### Use Case 3: Retrieve All Products
 
@@ -154,7 +154,7 @@ Use the following connection details, assuming they match the application's conf
 - **Username:** `sa`
 - **Password:** Leave blank
 
-![Task 2 H2 Console](screenshots/t2database.PNG)
+![Task 2 H2 Console](screenshots/T2database.PNG)
 
 ### SQL Query: View All Products
 
@@ -166,7 +166,7 @@ SELECT * FROM PRODUCTS;
 
 This query displays the products stored in the `PRODUCTS` table.
 
-![Task 2 database query results](screenshots/t2database.PNG)
+![Task 2 database query results](screenshots/T2database.PNG)
 
 Because the application uses an in-memory H2 database, its data normally disappears when the application stops.
 
