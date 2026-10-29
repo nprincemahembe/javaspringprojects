@@ -42,7 +42,7 @@ The application normally runs on port `8080`.
 
 This endpoint demonstrates a simple HTTP GET request and returns the text response configured in the controller.
 
-![Task 1 home endpoint response](screenshots/t1localhost.png)
+![Task 1 home endpoint response](first-project-java-spring/screenshots/t1localhost.png)
 
 ### Use Case 2: Open the Greeting Page
 
@@ -50,7 +50,7 @@ This endpoint demonstrates a simple HTTP GET request and returns the text respon
 
 This endpoint displays the greeting page using the Thymeleaf template.
 
-![Task 1 greeting page](screenshots/t1greet.png)
+![Task 1 greeting page](first-project-java-spring/screenshots/t1greet.png)
 
 ### Use Case 3: Pass a Name as a Request Parameter
 
@@ -58,7 +58,7 @@ This endpoint displays the greeting page using the Thymeleaf template.
 
 The `name` request parameter is passed to the controller. The controller uses the value to personalise the greeting displayed on the page.
 
-![Task 1 Vistula screenshot](/first-project-java-spring/screenshots/t1Vistula.png)
+![Task 1 Vistula screenshot](first-project-java-spring/screenshots/t1Vistula.png)
 
 ## 6. Main Concepts Demonstrated
 
