@@ -61,6 +61,8 @@ Swagger UI allows the API endpoints to be tested directly from the browser.
 
 This endpoint displays the generated OpenAPI specification in JSON format.
 
+![Task 2 Open API in json format](screenshots/T2OPENAPIJSON.PNG)
+
 ## 6. API Endpoints and Use Cases
 
 The base endpoint for product operations is:
